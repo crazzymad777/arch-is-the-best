@@ -1,3 +1,4 @@
 PACKAGES="zig"
 BUILD="cd zig && zig build && cd .."
+NAME="Zig"
 RUN="./zig/zig-out/bin/Arch-is-the-best"

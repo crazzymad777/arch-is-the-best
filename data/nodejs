@@ -1,3 +1,4 @@
 PACKAGES="nodejs"
-BUILD=""
+BUILD=";"
+NAME="Node.js"
 RUN="node nodejs/index.js"
