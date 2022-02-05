@@ -16,3 +16,11 @@ $BUILD
  echo "Rust ok" ||
  echo "Rust error"
 set +o allexport
+
+set -o allexport
+source data/zig
+$BUILD
+./bin/test_the_best "$RUN" &&
+ echo "Zig ok" ||
+ echo "Zig error"
+set +o allexport

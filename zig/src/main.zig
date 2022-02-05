@@ -1,6 +1,7 @@
 const std = @import("std");
 
 pub fn main() !void {
-    std.log.info("Arch is the best!\n", .{});
+        const writer = std.io.getStdOut().writer();
+        nosuspend writer.print("Arch is the best!\n", .{}) catch return;
 }
 
