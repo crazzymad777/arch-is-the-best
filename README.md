@@ -16,5 +16,6 @@
 `cd bash &&./arch.sh`
 
 ### Python
-instalation: `sudo pacman -S python`
-run: `cd python && python arch.py`
+`cd python && python arch.py`
+
+dependencies: `sudo pacman -S python`
