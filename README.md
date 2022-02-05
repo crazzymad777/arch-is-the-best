@@ -13,7 +13,12 @@
 `cd java && javac Arch.java && java Arch`
 
 ### Bash
-`cd bash &&./arch.sh`
+`cd bash && chmod +x arch.sh && ./arch.sh`
 
 ### Mysql
 `cd mysql && mysql -u root -p < arch.sql`
+
+### Python
+`cd python && python arch.py`
+
+dependencies: `sudo pacman -S python`
