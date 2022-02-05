@@ -1,0 +1,10 @@
+{
+  "name": "Arch-is-the-best",
+  "version": "1.0.0",
+  "description": "Another proof",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "node index.js"
+  }
+}
