@@ -2,12 +2,17 @@
 
 cd test_the_best && ./deploy.sh && cd ..
 
-./bin/test_the_best nodejs/index.js &&
+set -o allexport
+source data/nodejs
+./bin/test_the_best "$RUN" &&
  echo "Node.js ok" ||
  echo "Node.js error"
+set +o allexport
 
-cd rust && ./build.sh
-../bin/test_the_best ../rust/run.sh &&
+set -o allexport
+source data/rust
+$BUILD
+./bin/test_the_best "$RUN" &&
  echo "Rust ok" ||
  echo "Rust error"
-cd ..
+set +o allexport

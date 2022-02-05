@@ -1,0 +1,3 @@
+PACKAGES="nodejs"
+BUILD=""
+RUN="node nodejs/index.js"
