@@ -14,3 +14,6 @@
 
 ### Bash
 `cd bash &&./arch.sh`
+
+### Mysql
+`cd mysql && mysql -u root -p < arch.sql`
