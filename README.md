@@ -13,7 +13,7 @@
 `cd java && javac Arch.java && java Arch`
 
 ### Bash
-`cd bash &&./arch.sh`
+`cd bash && chmod +x arch.sh && ./arch.sh`
 
 ### Python
 `cd python && python arch.py`
