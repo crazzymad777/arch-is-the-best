@@ -1,11 +1,4 @@
-## Dependencies
-`# pacman -S nodejs`
+## Node.js
+Install dependencies: `sudo pacman -S nodejs`
 
-### Yarn (package manager)
-`# pacman -S yarn`
-
-## Run
-`$ ./index.js`
-
-## Run with Yarn
-`$ yarn run run`
+Run: `node index.js`

@@ -1,3 +1,5 @@
+BUILD_INSIDE="cargo build"
+RUN_INSIDE="cargo run"
 PACKAGES="rust"
 BUILD="cargo build --manifest-path=rust/Cargo.toml --release"
 NAME="Rust"

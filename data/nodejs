@@ -1,3 +1,5 @@
+BUILD_INSIDE=";"
+RUN_INSIDE="node index.js"
 PACKAGES="nodejs"
 BUILD=";"
 NAME="Node.js"

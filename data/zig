@@ -1,3 +1,5 @@
+BUILD_INSIDE="zig build"
+RUN_INSIDE="zig build run"
 PACKAGES="zig"
 BUILD="cd zig && zig build && cd .."
 NAME="Zig"
