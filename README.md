@@ -10,4 +10,7 @@
 `$ cd zig && zig build run`
 
 ### Java
-`javac Arch.java && java Arch`
+`cd java && javac Arch.java && java Arch`
+
+### Bash
+`cd bash &&./arch.sh`
