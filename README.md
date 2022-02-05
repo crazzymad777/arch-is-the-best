@@ -7,4 +7,4 @@
 `$ cd nodejs && yarn run run`
 
 ### Zig
-`$ zig && zig build run`
+`$ cd zig && zig build run`
