@@ -8,3 +8,6 @@
 
 ### Zig
 `$ cd zig && zig build run`
+
+### Java
+`javac Arch.java && java Arch`
