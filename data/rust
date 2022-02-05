@@ -1,0 +1,3 @@
+PACKAGES="rust"
+BUILD="cargo build --manifest-path=rust/Cargo.toml --release"
+RUN="./rust/target/release/arch_is_the_best"
