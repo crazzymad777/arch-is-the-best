@@ -1,0 +1,6 @@
+BUILD_INSIDE="javac Arch.java"
+RUN_INSIDE="java Arch"
+PACKAGES="jdk-openjdk"
+BUILD="javac java/Arch.java"
+NAME="Java"
+RUN="java -classpath java Arch"
