@@ -1,6 +1,6 @@
 BUILD_INSIDE="zig build"
 RUN_INSIDE="zig build run"
 PACKAGES="zig"
-BUILD="cd zig && zig build && cd .."
+BUILD="zig build --build-file zig/build.zig"
 NAME="Zig"
 RUN="./zig/zig-out/bin/Arch-is-the-best"
