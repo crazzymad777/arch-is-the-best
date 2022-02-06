@@ -1,0 +1,6 @@
+BUILD_INSIDE=";"
+RUN_INSIDE="python arch.py"
+PACKAGES="python"
+BUILD=";"
+NAME="Python"
+RUN="python python/arch.py"
