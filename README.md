@@ -1,24 +1,14 @@
 # Arch Is The Best
 
-### Rust
-`$ cd rust && cargo build && cargo run`
+Set target: `TARGET=rust`
+Install dependencies: `./install.sh $TARGET`
+Build: `./build.sh $TARGET`
+Run: `./run.sh $TARGET`
 
-### Node
-`$ cd nodejs && yarn run run`
-
-### Zig
-`$ cd zig && zig build run`
-
-### Java
-`cd java && javac Arch.java && java Arch`
-
-### Bash
-`cd bash && chmod +x arch.sh && ./arch.sh`
-
-### Mysql
-`cd mysql && mysql -u root -p < arch.sql`
-
-### Python
-`cd python && python arch.py`
-
-dependencies: `sudo pacman -S python`
+### Targets:
+ - bash
+ - java
+ - rust
+ - python
+ - nodejs
+ - zig
