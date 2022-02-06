@@ -1,6 +1,10 @@
 #!/bin/bash
 
-set -o allexport
-source data/$1
-$BUILD
-set +o allexport
+if [[ ! -z $1 ]]; then
+   set -o allexport
+   source data/$1
+   if [[ "$BUILD" != ";" ]]; then
+      $BUILD
+   fi
+   set +o allexport
+fi

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+if [[ ! -z $1 ]]; then
 set -o allexport
 source data/$1
 
@@ -34,3 +35,5 @@ echo '## '$NAME'
 fi
 
 set +o allexport
+fi
+
