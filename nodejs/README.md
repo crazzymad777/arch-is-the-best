@@ -1,4 +1,6 @@
 ## Node.js
-Install dependencies: `sudo pacman -S nodejs`
+#### Install dependencies
+`sudo pacman -S nodejs`
 
-Run: `node index.js`
+#### Run
+`node index.js`

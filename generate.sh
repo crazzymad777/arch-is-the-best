@@ -3,13 +3,17 @@
 set -o allexport
 source data/$1
 
+export BUILDTEXT=''
+
 if [[ $BUILD_INSIDE != ";"  ]]; then
-BUILDTEXT='Build:
+export BUILDTEXT='#### Build
 `'$BUILD_INSIDE'`'
 fi
 
 echo '## '$NAME'
-Install dependencies: `sudo pacman -S '$PACKAGES'`
+#### Install dependencies
+`sudo pacman -S '$PACKAGES'`
 '$BUILDTEXT'
-Run: `'$RUN_INSIDE'`' > $1/README.md
+#### Run
+`'$RUN_INSIDE'`' > $1/README.md
 set +o allexport
