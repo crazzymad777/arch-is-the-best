@@ -1,0 +1,3 @@
+## Bash
+#### Run
+`./arch.sh`
