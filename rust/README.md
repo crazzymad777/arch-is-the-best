@@ -1,6 +1,7 @@
 ## Rust
 #### Install dependencies
 `sudo pacman -S rust`
-#### Buildn `cargo build`
+#### Build
+`cargo build`
 #### Run
 `cargo run`
