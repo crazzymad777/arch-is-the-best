@@ -6,7 +6,7 @@ source data/$1
 export BUILDTEXT=''
 
 if [[ $BUILD_INSIDE != ";"  ]]; then
-export BUILDTEXT='#### Build
+export BUILDTEXT='#### Build'\n'
 `'$BUILD_INSIDE'`'
 fi
 

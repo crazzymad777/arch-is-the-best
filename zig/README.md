@@ -1,6 +1,6 @@
 ## Zig
 #### Install dependencies
 `sudo pacman -S zig`
-#### Build `zig build`
+#### Buildn `zig build`
 #### Run
 `zig build run`
