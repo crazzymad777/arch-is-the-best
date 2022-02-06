@@ -2,5 +2,7 @@
 
 set -o allexport
 source data/$1
-sudo pacman -S $PACKAGES
+if [[ ! -z $PACKAGES ]]; then
+   sudo pacman -S --needed $PACKAGES
+fi
 set +o allexport
