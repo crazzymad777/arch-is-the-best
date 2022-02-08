@@ -1,0 +1,6 @@
+BUILD_INSIDE="kotlinc arch-is-the-best.kt -include-runtime -d arch.jar"
+RUN_INSIDE="java -jar arch.jar"
+PACKAGES="kotlin"
+BUILD="kotlinc kotlin/arch-is-the-best.kt -include-runtime -d kotlin/arch.jar"
+NAME="Kotlin"
+RUN="java -jar kotlin/arch.jar"
