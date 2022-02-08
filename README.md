@@ -12,6 +12,7 @@ Run:
 ### Targets:   
  - bash
  - java
+ - kotlin
  - rust
  - python
  - nodejs
