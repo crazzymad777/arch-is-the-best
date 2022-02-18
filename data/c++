@@ -1,0 +1,6 @@
+BUILD_INSIDE="g++ the_best.cpp"
+RUN_INSIDE="./a.out"
+PACKAGES="gcc"
+BUILD="g++ c++/the_best.cpp -o c++/a.out"
+NAME="C++"
+RUN="./c++/a.out"

@@ -2,6 +2,7 @@
 
 languages=(
   bash
+  c++
   java
   kotlin
   python
